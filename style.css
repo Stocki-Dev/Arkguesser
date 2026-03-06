@@ -1,0 +1,92 @@
+body{
+
+    font-family: Arial;
+    background:#1e1e1e;
+    color:white;
+    
+    }
+    
+    h1{
+    margin-top:20px;
+    }
+    
+    #locationImage{
+    
+    width:600px;
+    margin:20px;
+    border-radius:10px;
+    
+    }
+    
+    .mapContainer{
+    
+    position:relative;
+    display:inline-block;
+    
+    }
+    
+    #map{
+    
+    width:600px;
+    cursor:pointer;
+    
+    }
+    
+    .marker{
+    
+    position:absolute;
+    width:16px;
+    height:16px;
+    background:red;
+    border-radius:50%;
+    transform:translate(-50%, -50%);
+    
+    }
+    
+    .realMarker{
+    
+    position:absolute;
+    width:16px;
+    height:16px;
+    background:lime;
+    border-radius:50%;
+    transform:translate(-50%, -50%);
+    
+    }
+    
+    .buttons{
+    
+    margin:20px;
+    
+    }
+    
+    button{
+    
+    padding:10px 20px;
+    font-size:16px;
+    margin:5px;
+    cursor:pointer;
+    
+    }
+
+    header{
+
+        background-color: rgb(67, 67, 67);
+        text-align:center;
+        color: white;
+        position:relative;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+
+    }
+
+    .dcm {
+
+        float: left;
+        color: black;
+        background-color: red;
+        width: 150px;
+        border-color: black;
+
+    }
